@@ -1,0 +1,202 @@
+<% include header.ejs %>
+    <style>
+        .part-a{
+            height:320px;
+        }
+        .part-b{
+            padding:30px 20px 30px 20px;
+        }
+        .part-b .am-list-news{
+            border-radius:3px;
+            border:1px solid lightgray;
+        }
+        .am-slider{
+            height:100%!important;
+        }
+        .am-viewport{
+            height:100%!important;
+         }
+        .am-viewport ul{
+            height:100%!important;
+        }
+        .am-viewport ul li{
+            height:100%!important;
+        }
+        .am-list-news-default{
+            margin:0px;
+        }
+        .am-list-news{
+            border-radius:3px;
+            border:1px dashed lightgray;
+        }
+        .am-list-news-hd h2{
+            font-size:1.8rem;
+        }
+        .am-list-news-hd{
+            padding:12px 5px 5px 8px;
+            font-size:2rem;
+        }
+        .am-list-news .am-list li a{
+            padding:8px 5px 3px 10px;
+            font-weight:300;
+            font-size:1.6rem;
+        }
+        .am-g:before{
+            display: table;
+            context:'#'!important;
+        }
+        .am-u-sm-4{
+            padding:0px 10px 0px 0px;
+        }
+    </style>
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">校园信息</strong> / <small>Campus info</small></div>
+      </div>
+
+      <hr/>
+
+        <div class="am-g">
+            <div class="am-u-sm-8 part-a">
+                <div data-am-widget="slider" class="am-slider am-slider-c1" data-am-slider='{"directionNav":false}' >
+                    <ul class="am-slides">
+                        <li>
+                            <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+                            <div class="am-slider-desc">远方 有一个地方 那里种有我们的梦想</div>
+
+                        </li>
+                        <li>
+                            <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+                            <div class="am-slider-desc">某天 也许会相遇 相遇在这个好地方</div>
+
+                        </li>
+                        <li>
+                            <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+                            <div class="am-slider-desc">不要太担心 只因为我相信 终会走过这条遥远的道路</div>
+
+                        </li>
+                        <li>
+                            <img src="http://s.amazeui.org/media/i/demos/bing-4.jpg">
+                            <div class="am-slider-desc">OH PARA PARADISE 是否那么重要 你是否那么地遥远</div>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="am-u-sm-4">
+                <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+                    <!--列表标题-->
+                    <div class="am-list-news-hd am-cf">
+                        <!--带更多链接-->
+                            <h2>杭州电子科技大学</h2>
+                    </div>
+
+                    <div class="am-list-news-bd">
+                        <ul class="am-list">
+
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11614662/" class="am-list-item-hd ">我很囧</a>
+
+
+
+                            </li>
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11624755/" class="am-list-item-hd ">我最喜欢</a>
+
+
+
+                            </li>
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11645411/" class="am-list-item-hd ">“你的旅行</a>
+
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="am-g part-b">
+            <div class="am-u-sm-4">
+                <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+                    <!--列表标题-->
+                    <div class="am-list-news-hd am-cf">
+                            <h2>选择学院</h2>
+                    </div>
+
+                    <div class="am-list-news-bd">
+                        <ul class="am-list">
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11614662/" class="am-list-item-hd ">计算机学院</a>
+                            </li>
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11624755/" class="am-list-item-hd ">会计学院</a>
+                            </li>
+                            <li class="am-g">
+                                <a href="http://www.douban.com/online/11645411/" class="am-list-item-hd ">“理学院</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="am-u-sm-8">
+                <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+                    <!--列表标题-->
+                    <div class="am-list-news-hd am-cf">
+                        <!--带更多链接-->
+
+                            <h2>计算机学院</h2>
+                        <a href="##" class="">
+                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
+                        </a>
+                    </div>
+
+                    <div class="am-list-news-bd">
+                        <ul class="am-list">
+
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
+
+                                <span class="am-list-date">2013-09-18</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+
+                                <span class="am-list-date">2013-10-14</span>
+
+
+                            </li>
+                            <li class="am-g am-list-item-dated">
+                                <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+
+                                <span class="am-list-date">2013-11-18</span>
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+  </div>
+  <!-- content end -->
+
+<% include footer.ejs %>

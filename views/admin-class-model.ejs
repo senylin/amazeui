@@ -1,0 +1,218 @@
+<% include header.ejs %>
+<!-- content start -->
+<style>
+#collapse-panel-4{
+ padding:10px 15px 10px 15px;
+}
+#collapse-panel-4 p{
+    margin:10px 0px 5px 0px;
+}
+#collapse-panel-4 a{
+    font-size:1.5rem;
+}
+#collapse-panel-4 hr{
+    margin:10px 0px 10px 0px;
+}
+.annouce{
+    text-align:left!important;
+}
+</style>
+<div class="admin-content">
+    <div class="admin-content-body">
+        <div class="am-cf am-padding am-padding-bottom-0">
+            <div class="am-fl"><strong class="am-text-primary am-text-lg"> <%=title %></strong> / <small></small></div>
+             <ul class="am-tabs-nav am-nav am-nav-tabs am-fr">
+               <li class="am-active"><a href="#">课堂首页</a></li>
+               <li><a href="/admin/tasklist/a">课堂作业</a></li>
+               <li><a href="#">课堂讨论</a></li>
+               <li><a href="/admin/student/lesson/a">个人课堂</a></li>
+             </ul>
+        </div>
+
+        <hr/>
+
+    <div class="am-g">
+        <div class="am-u-sm-8">
+        <h3>课程介绍:</h3>
+          <p>软件需求分析<br/> 班级：(2016-2017-1)-A10117...</p>
+          <h3>课程安排:</h3>
+                    <ol>
+                      <li>周一三四节 3教机房<br/>周三一二节 3教101</li><br/>
+                      <li>周一三四节 3教机房<br/>周三一二节 3教101</li>
+                    </ol>
+          <hr/>
+        </div>
+
+        <div class="am-u-sm-4">
+                           <div class="am-panel am-panel-default">
+                             <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-0'}">相关人员<span class="am-icon-chevron-down am-fr" ></span></div>
+                               <div id="collapse-panel-4" class="am-panel-bd am-collapse am-in">
+                                  <p>负责教师</p>
+                                    <a href="#">哀木涕</a>
+
+                                   <p>相关学生</p>
+                                   <a href="#">点击查看</a>
+                                  <hr/>
+                               </div>
+         </div>
+
+    </div>
+    <div class="am-g">
+       <div class="am-u-sm-12">
+                <div class="am-tabs am-margin" data-am-tabs>
+                      <ul class="am-tabs-nav am-nav am-nav-tabs">
+                        <li class="am-active"><a href="#tab1">课堂公告</a></li>
+                        <li><a href="#tab2">点名情况</a></li>
+                        <li><a href="#tab3">课堂资源</a></li>
+                      </ul>
+
+                      <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                            <table class="am-table am-table-striped am-table-hover table-main">
+                                        <thead>
+                                        <tr>
+                                          <th>发送老师</th><th>通知内容</th><th>发送时间</th><th>相关操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><td><a href="#">John Clark</a></td><td class="annouce">根据老师评语修改课程设计开题报告,<br/>根据老师评语修改UML组成作业,在资料中下载并预习“6.用例图”，思考PBL中用例图作业。</td> <td>2014年9月4日 7:28:47</td>
+                                          <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                              <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                              <ul class="am-dropdown-content">
+                                                <li><a href="#">1.收到</a></li>
+                                                <li><a href="#">2.删除</a></li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr><td><a href="#">John Clark</a></td><td class="annouce">根据老师评语修改课程设计开题报告,<br/>根据老师评语修改UML组成作业,在资料中下载并预习“6.用例图”，思考PBL中用例图作业。</td> <td>2014年9月4日 7:28:47</td>
+                                          <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                              <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                              <ul class="am-dropdown-content">
+                                                <li><a href="#">1.收到</a></li>
+                                                <li><a href="#">2.删除</a></li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr><td><a href="#">John Clark</a></td><td class="annouce">根据老师评语修改课程设计开题报告,<br/>根据老师评语修改UML组成作业,在资料中下载并预习“6.用例图”，思考PBL中用例图作业。</td> <td>2014年9月4日 7:28:47</td>
+                                          <td>
+                                            <div class="am-dropdown" data-am-dropdown>
+                                              <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                              <ul class="am-dropdown-content">
+                                                <li><a href="#">1.收到</a></li>
+                                                <li><a href="#">2.删除</a></li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                       </tbody>
+                              </table>
+                        <hr/>
+                        </div>
+                      </div>
+                      <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-fade am-in" id="tab2">
+                              <table class="am-table am-table-striped am-table-hover table-main">
+                                        <thead>
+                                        <tr>
+                                          <th>点到教师</th><th>点名单</th><th>点名时间</th><th>所属班级</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><td><a href="#">John Clark</a></td><td><a href="#">周几某某课第三次点到单</a></td> <td>2014年9月4日 7:28:47</td>
+                                          <td>周一三四节<br/>及周二七八节</td>
+                                        </tr>
+                                        <tr><td><a href="#">John Clark</a></td><td><a href="#">周几某某课第二次点到单</a></td> <td>2014年9月4日 7:28:47</td>
+                                           <td>周一三四节<br/>及周二七八节</td>
+                                         </tr>
+                                        <tr><td><a href="#">John Clark</a></td><td><a href="#">周几某某课第一次点到单</a></td> <td>2014年9月4日 7:28:47</td>
+                                            <td>周一三四节<br/>及周二七八节</td>
+                                        </tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                       </tbody>
+                              </table>
+
+
+
+                        </div>
+                      </div>
+                      <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-fade am-in " id="tab3">
+                             <table class="am-table am-table-striped am-table-hover table-main">
+                                        <thead>
+                                        <tr>
+                                          <th>上传教师</th><th>上传资源</th><th>上传时间</th><th>相关操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr><td><a href="#">John Clark</a></td><td><a href="#">课程公共资源</a></td> <td>2014年9月4日 7:28:47</td>
+                                                <td>
+                                                   <div class="am-dropdown" data-am-dropdown>
+                                                     <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                                     <ul class="am-dropdown-content">
+                                                       <li><a href="#">1.打开</a></li>
+                                                       <li><a href="#">2.收藏</a></li>
+                                                       <li><a href="#">3.删除</a></li>
+                                                     </ul>
+                                                   </div>
+                                                 </td>
+                                        </tr>
+                                     <tr><td><a href="#">John Clark</a></td><td><a href="#">课程公共资源</a></td> <td>2014年9月4日 7:28:47</td>
+                                                <td>
+                                                   <div class="am-dropdown" data-am-dropdown>
+                                                     <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                                     <ul class="am-dropdown-content">
+                                                       <li><a href="#">1.打开</a></li>
+                                                       <li><a href="#">2.收藏</a></li>
+                                                       <li><a href="#">3.删除</a></li>
+                                                     </ul>
+                                                   </div>
+                                                 </td>
+                                        </tr>
+                                       <tr><td><a href="#">John Clark</a></td><td><a href="#">课程公共资源</a></td> <td>2014年9月4日 7:28:47</td>
+                                                 <td>
+                                                    <div class="am-dropdown" data-am-dropdown>
+                                                      <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                                      <ul class="am-dropdown-content">
+                                                        <li><a href="#">1.打开</a></li>
+                                                        <li><a href="#">2.收藏</a></li>
+                                                        <li><a href="#">3.删除</a></li>
+                                                      </ul>
+                                                    </div>
+                                                  </td>
+                                         </tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                       </tbody>
+                              </table>
+
+
+
+                        </div>
+                      </div>
+             </div>
+        </div>
+    </div>
+    <footer class="admin-content-footer">
+        <hr>
+        <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+</div>
+<!-- content end -->
+
+<% include footer.ejs %>

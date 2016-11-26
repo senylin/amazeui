@@ -1,0 +1,131 @@
+/* Write your styles */
+.am-panel{
+    border-radius:3px;
+}
+.am-panel-hd{
+    font-weight:600;
+    color:#333;
+}
+.annouce-list ul{
+    margin-top:-15px;
+}
+.am-comment{
+    border-radius:5px;
+}
+.am-comment-main{
+    border-radius:5px;
+}
+.annouce-list ul am-comment-author {
+    color:#333!important;
+}
+.am-comment-meta a{
+    color:#0e90d2;
+}
+.am-comment-bd{
+    padding:10px 15px 10px 15px;
+}
+.am-comment-bd p{
+    color:grey!important;
+}
+.course-list{
+    box-shadow:0px 0px 5px lightgrey;
+    border-radius:5px;
+    margin-bottom:0px;
+    text-align:center;
+    -webkit-transition: -webkit-transform 1s linear;
+    transition:1s linear;
+
+}
+.course-list th{
+    width:12.5%;
+    text-align:center;
+}
+.course-list td{
+    font-size:14px;
+    font-family:'SimHei';
+    font-weight:400;
+}
+.course-list td a{
+    color:#333;
+}
+.couse-button{
+     width:100%;
+     box-shadow:0px 0px 5px lightgrey!important;
+     margin-bottom:20px;
+ }
+.couse-button:hover{
+    border:0px solid white;
+}
+.list-content{
+    display:none;
+ }
+.course-today{
+    text-align:center;
+    margin-bottom:0px;
+
+}
+.course-today th{
+    font-weight:400;
+    text-align:center;
+    font-size:14px;
+}
+.course-today td{
+    font-size:14px;
+}
+
+#collapse-panel-4{
+
+}
+.am-comment-main{
+    margin-left: 5px;
+}
+.user-if{
+    padding:10px 10px 10px 10px;
+}
+.user-if .am-panel-bd{
+    padding:5px 5px 5px 5px;
+}
+.user-if .am-panel{
+    margin-bottom:5px!important;
+}
+.user-info{
+    margin-bottom:10px;
+}
+.am-btn{
+    border-radius:2px;
+}
+.task-list strong{
+    color:#d93c37;
+    font-size:15px;
+}
+.task-list i{
+    color:#4db14d;
+    font-size:15px;
+}
+.collapse-panel-3{
+    dispaly:none!important;
+}
+.am-comment-author{
+    font-size:14px;
+}
+input{
+    border-radius:3px;
+}
+button{
+    border-radius:3px;
+}
+.am-pagination li a{
+    border-radius:3px;
+}
+.am-selected{
+    width:100%;
+}
+th {
+    text-align:center;
+}
+td{
+    text-align:center;
+}
+td div{
+    float:right;
+}

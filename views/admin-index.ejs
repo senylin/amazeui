@@ -1,0 +1,308 @@
+<% include header.ejs %>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">个人首页</strong> / <small>Welcome to use campus</small></div>
+      </div>
+
+      <hr/>
+      <!--<ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list ">-->
+        <!--<li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>新增页面<br/>2300</a></li>-->
+        <!--<li><a href="#" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>成交订单<br/>308</a></li>-->
+        <!--<li><a href="#" class="am-text-danger"><span class="am-icon-btn am-icon-recycle"></span><br/>昨日访问<br/>80082</a></li>-->
+        <!--<li><a href="#" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>在线用户<br/>3000</a></li>-->
+      <!--</ul>-->
+
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <table class="am-table am-table-bd am-table-striped admin-content-table course-list am-table-bordered">
+            <thead>
+            <tr>
+              <th>个人课表</th><th>周一</th><th>周二</th><th>周三</th><th>周四</th><th>周五</th><th>周六</th><th>周日</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>8:00-8:45</td>
+                <td><a href="#">马克思主义思想与概述</a></td>
+                <td></td>
+                <td><a href="#">软件需求管理(上机)</a></td>
+              <td></td>
+                <td><a href="#">winphone开发</a></td>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>8:55-9:40</td>
+                <td><a href="#">马克思主义思想与概述</a></td>
+                <td></td>
+                <td><a href="#">软件需求管理(上机)</a></td>
+                <td></td>
+                <td><a href="#">winphone开发</a></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>10:00-10:45</td>
+                <td><a href="#">跨文化交际</a></td>
+                <td><a href="#">工程经济学</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+            <tr class="list-content">
+                <td>10:55-11:40</td>
+                <td><a href="#">跨文化交际</a></td>
+                <td><a href="#">工程经济学</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>11:45-12:20</td>
+                <td></td>
+                <td><a href="#">工程经济学</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+
+
+            <tr class="list-content">
+                <td>1:30-2:15</td>
+                <td><a href="#">Android开发</a></td>
+                <td><a href="#">软件过程管理</a></td>
+                <td></td>
+                <td><a href="#">软件过程管理</a></td>
+                <td><a href="#">linux系统开发</a></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>2:20-3:05</td>
+                <td><a href="#">Android开发</a></td>
+                <td><a href="#">软件过程管理</a></td>
+                <td></td>
+                <td><a href="#">软件过程管理</a></td>
+                <td><a href="#">linux系统开发</a></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>3:10-3:55</td>
+                <td><a href="#">Android开发</a></td>
+                <td></td>
+                <td></td>
+                <td><a href="#">JavaEE开发</a></td>
+                <td><a href="#">linux系统开发</a></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>4:05-4;50</td>
+                <td><a href="#">Android开发</a></td>
+                <td></td>
+                <td></td>
+                <td><a href="#">JavaEE开发</a></td>
+                <td><a href="#">linux系统开发</a></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>6:30-7:15</td>
+                <td><a href="#">软件需求管理</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>7:20-8:05</td>
+                <td><a href="#">软件需求管理</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+
+            <tr class="list-content">
+                <td>8:10-8:55</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+
+
+            </tbody>
+          </table>
+            <div class="am-btn am-btn-default am-center couse-button" id="list-toggle">Open Table</div>
+        </div>
+      </div>
+
+      <div class="am-g">
+        <div class="am-u-md-6">
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-1'}">2016-11-23 星期三<span class="am-icon-chevron-down am-fr" ></span></div>
+              <div id="collapse-panel-1" class="am-in">
+                  <table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover course-today">
+                      <tbody>
+                      <tr>
+                          <th class="am-text-center">开始时间</th>
+                          <th>今日课程</th>
+                          <th>结束时间</th>
+                      </tr>
+                      <tr>
+                          <td class="am-text-center">8:00</td>
+                          <td><a href="#">马克思主义思想与概述</a></td>
+                          <td>10:40</td>
+                      </tr>
+                      <tr>
+                          <td class="am-text-center">11:05</td>
+                          <td><a href="#">跨文化交际</a></td>
+                          <td>11:40</td>
+                      </tr>
+                      <tr>
+                          <td class="am-text-center">1:30</td>
+                          <td><a href="#">Android开发</a></td>
+                          <td>4:45</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">最新公告<span class="am-icon-chevron-down am-fr" ></span></div>
+              <div class="am-panel-bd am-collapse am-cf annouce-list am-in" id="collapse-panel-2">
+                  <ul class="am-comments-list admin-content-comment">
+                      <li class="am-comment">
+
+
+                          <div class="am-comment-main">
+                              <header class="am-comment-hd">
+                                  <div class="am-comment-meta"><a href="#" class="am-comment-author">教务处</a> <time class="am-fr">2014-7-12 15:30</time></div>
+                              </header>
+                              <div class="am-comment-bd"><p>遵循 “移动优先（Mobile First）”、“渐进增强（Progressive enhancement）”的理念，可先从移动设备开始开发网站，逐步在扩展的更大屏幕的设备上，专注于最重要的内容和交互，很好。</p>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li class="am-comment">
+                          <div class="am-comment-main">
+                              <header class="am-comment-hd">
+                                  <div class="am-comment-meta"><a href="#" class="am-comment-author ">软件工程需求管理</a></div>
+                                  <div class="am-comment-meta"><time class="am-fr">2014-7-12 15:30</time></div>
+                              </header>
+                              <div class="am-comment-bd"><p>明天上机</p>
+                              </div>
+                          </div>
+                      </li>
+
+                  </ul>
+
+              </div>
+          </div>
+        </div>
+
+        <div class="am-u-md-6">
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '.collapse-panel-4'}">个人信息<span class="am-icon-chevron-down am-fr" ></span></div>
+              <div  class="am-panel-bd am-collapse am-in user-if ">
+
+                  <div class="am-panel">
+                      <div class="am-panel-bd">
+                          <div class="user-info">
+                              <p><a href="#">林森益</a>/14108216</p>
+                              <div class="am-progress am-progress-sm">
+                                  <div class="am-progress-bar" style="width: 60%"></div>
+                              </div>
+                              <p class="user-info-order">身份：<strong>学生</strong><br /> 所在学院：<strong>计算机学院</strong> <br />学期已过：<strong>100d</strong><br />当前学期：<strong>2016-2017</strong></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="am-panel  am-collapse collapse-panel-4">
+                      <div class="am-panel-bd">
+                          <div class="user-info">
+                              <p>选修课程</p>
+                              <div class="am-progress am-progress-sm">
+                                  <div class="am-progress-bar am-progress-bar-success" style="width: 90%"></div>
+                              </div>
+                              <p class="user-info-order">选课数：<strong>15</strong>  必修课：<strong>4</strong>  限选课：<strong>4</strong>  公选课：<strong>7</strong><br />学霸等级：优秀</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '.collapse-panel-3'}">我的作业<span class="am-icon-chevron-down am-fr" ></span></div>
+              <div class="am-panel-bd  task-list am-collapse collapse-panel-3 am-in">
+                  <ul class="am-list admin-content-task">
+                      <li>
+                          <div class="admin-task-meta"> Posted on <i>2016/11/14</i> by <strong>软件需求管理</strong></div>
+                          <div class="admin-task-bd">
+                              The starting place for exploring business management; helping new managers get started and experienced managers get better.
+                          </div>
+                          <div class="am-cf">
+                              <div class="am-btn-toolbar am-fl">
+                                  <div class="am-btn-group am-btn-group-xs">
+                                      <button type="button" class="am-btn am-btn-danger">before 11-23</button>
+
+                                  </div>
+                              </div>
+                              <div class="am-fr">
+                                  <button type="button" class="am-btn am-btn-default am-btn-xs">查看</button>
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="admin-task-meta"> Posted on <i>2016/11/14</i> by <strong>软件需求管理</strong></div>
+                          <div class="admin-task-bd">
+                              基兰和狗熊出现在不同阵营时。基兰会获得BUFF，“装甲熊憎恨者”。狗熊会获得BUFF，“时光老人憎恨者”。
+                          </div>
+                          <div class="am-cf">
+                              <div class="am-btn-toolbar am-fl">
+                                  <div class="am-btn-group am-btn-group-xs">
+                                      <button type="button" class="am-btn am-btn-danger">before 11-23</button>
+
+                                  </div>
+                              </div>
+                              <div class="am-fr">
+                                  <button type="button" class="am-btn am-btn-default am-btn-xs">查看</button>
+                              </div>
+                          </div>
+                      </li>
+                      <!--<ul class="am-pagination am-fr admin-content-pagination">-->
+                          <!--<li class="am-disabled"><a href="#">&laquo;</a></li>-->
+                          <!--<li class="am-active"><a href="#">1</a></li>-->
+                          <!--<li><a href="#">2</a></li>-->
+                          <!--<li><a href="#">3</a></li>-->
+                          <!--<li><a href="#">4</a></li>-->
+                          <!--<li><a href="#">5</a></li>-->
+                          <!--<li><a href="#">&raquo;</a></li>-->
+                      <!--</ul>-->
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+  </div>
+  <!-- content end -->
+
+<% include footer.ejs %>
